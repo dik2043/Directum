@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Directum</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media-queries.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <div class="header__menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#about" class="header__nav-anchor">О&nbsp;мероприятии</a></li>
+                    <li><a href="#registration" class="header__nav-anchor">Регистрация</a></li>
+                    <li><a href="#cost" class="header__nav-anchor">Стоимость участия</a></li>
+                    <li><a href="#speakers" class="header__nav-anchor">Спикеры</a></li>
+                </ul>
+            </nav>
+          <div class="header__layout hidden"></div>
+            <section id="about" class="header__info">
+                <img src="img/logo.svg" width="142" height="142" alt="logo">
+
+                <h1 class="header__headline">Название мероприятия</h1>
+                <span class="header__info-date">4&nbsp;МАЯ 2049</span>
+                <span>в&nbsp;самом сердце страны</span>
+                <button class="header__register-btn btn">Регистрация</button>
+            </section>
+        </div>
+    </header>
+
+
+    <section class="registration" id="registration">
+        <div class="wrapper">
+            <div class="registration__preview">
+                <span class="registration__preview-headline">
+                    Дорогие друзья!
+                </span>
+                <p class="registration__preview-text">
+                    <b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit, sed do&nbsp;eiusmod
+                    tempor incididunt ut&nbsp;labore et&nbsp;dolore magna aliqua. Ut&nbsp;enim ad&nbsp;minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat.
+                    Duis aute irure dolor in&nbsp;reprehenderit in&nbsp;voluptate velit esse cillum dolore eu&nbsp;fugiat
+                    nulla pariatur.
+                </p>
+                <p class="registration__preview-text">
+                    Excepteur sint occaecat cupidatat non proident, sunt in&nbsp;culpa qui officia deserunt mollit
+                    anim id&nbsp;est laborum.
+                </p>
+            </div>
+            <div class="registration__info">
+                <h2 class="registration__info-headline">Регистрация</h2>
+                <span class="registration__info-check">Пожалуйста, проверьте правильность введенных данных:</span>
+                <div class="registration__info-table">
+                    <div class="registration__info-row">
+                        <span class="registration__info-cell">ФИО:</span>
+                        <span class="registration__info-cell">Иванов Иван Иванович</span>
+                    </div>
+                    <div class="registration__info-row">
+                            <span class="registration__info-cell">Место работы:</span>
+                        <span class="registration__info-cell">DIRECTUM</span>
+                    </div>
+                    <div class="registration__info-row">
+                        <span class="registration__info-cell">E-mail:</span>
+                        <span class="registration__info-cell">ivanov_ii@directum.ru</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="cost" id="cost">
+        <div class="wrapper">
+            <div class="cost__info">
+                <h2 class="cost__headline">Стоимость участия</h2>
+                <span>(на 1 человека)</span>
+            </div>
+            <section class="cost__table">
+                <div class="cost__row cost__row--head">
+                    <div class="cost__cell cost__cell--head"></div>
+                    <div class="cost__cell cost__cell--head">Стоимость ДО&nbsp;1&nbsp;января</div>
+                    <div class="cost__cell cost__cell--head">Стоимость ПОСЛЕ 1&nbsp;января</div>
+                </div>
+                <div class="cost__row">
+                    <div class="cost__cell">С&nbsp;проживанием в&nbsp;2-местном номере</div>
+                    <div class="cost__cell">30 000 ₽</div>
+                    <div class="cost__cell">35 000 ₽</div>
+                </div>
+                <div class="cost__row">
+                    <div class="cost__cell">Доплата за&nbsp;1-местное проживание</div>
+                    <div class="cost__cell">500&nbsp;₽</div>
+                    <div class="cost__cell">1&nbsp;500&nbsp;₽</div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <section class="gallery">
+        <h2 class="gallery__headline">Галерея</h2>
+
+        <div class="slider js-gallery-slider">
+
+            <img src="img/pika-1-less.jpg" class="slider__slide-image" alt="slide">
+            <img src="img/pika-2-less.jpg" class="slider__slide-image" alt="slide">
+            <img src="img/pika-3-less.jpg" class="slider__slide-image" alt="slide">
+
+        </div>
+
+        <div class="slider__dots js--dots"></div>
+    </section>
+
+
+    <section class="speakers" id="speakers">
+        <h2 class="speakers__headline"></h2>
+
+        <ul class="speakers__list">
+            <li class="speakers__list-item">
+                <div class="speakers__avatar"></div>
+                <p class="speakers__name">Детектив пикачу</p>
+                <p class="speakers__description">уморительный, остроумный и&nbsp;обаятельный сыщик</p>
+            </li>
+            <li class="speakers__list-item">
+                <div class="speakers__avatar"></div>
+                <p class="speakers__name">Детектив пикачу</p>
+                <p class="speakers__description">уморительный, остроумный и&nbsp;обаятельный сыщик</p>
+            </li>
+            <li class="speakers__list-item">
+                <div class="speakers__avatar"></div>
+                <p class="speakers__name">Детектив пикачу</p>
+                <p class="speakers__description">уморительный, остроумный и&nbsp;обаятельный сыщик</p>
+            </li>
+            <li class="speakers__list-item">
+                <div class="speakers__avatar"></div>
+                <p class="speakers__name">Детектив пикачу</p>
+                <p class="speakers__description">уморительный, остроумный и&nbsp;обаятельный сыщик</p>
+            </li>
+            <li class="speakers__list-item">
+                <div class="speakers__avatar"></div>
+                <p class="speakers__name">Детектив пикачу</p>
+                <p class="speakers__description">уморительный, остроумный и&nbsp;обаятельный сыщик</p>
+            </li>
+            <li class="speakers__list-item">
+                <div class="speakers__avatar"></div>
+                <p class="speakers__name">Детектив пикачу</p>
+                <p class="speakers__description">уморительный, остроумный и&nbsp;обаятельный сыщик</p>
+            </li>
+        </ul>
+    </section>
+
+
+    <footer>
+        <a class="footer__link" href="https://www.directum.ru/" target="_blank"></a>
+        <span class="footer__info">&copy;&nbsp;DIRECTUM, 2019</span>
+    </footer>
+
+
+
+    <!-- Модал регистрации >>> -->
+
+    <section class="modal__layout hidden">
+        <div class="modal__inner">
+            <h3 class="modal__headline">Регистрация</h3>
+
+            <form class="modal__form">
+                <input class="modal__form-text" type="text" id="name" placeholder="ФИО">
+                <input class="modal__form-text" type="text" id="email" placeholder="Email">
+
+                <input type="submit" class="modal__confirm btn" value="Регистрация"></input>
+            </form>
+
+            <div class="modal__closer js-close">
+                <span class="js-close"></span>
+                <span class="js-close"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модал регистрации <<< -->
+
+    <script src="js/jquery_2.0.2.js" type="text/javascript" ></script>
+    <script src="js/slick.min.js" type="text/javascript" ></script>
+
+    <script defer src="js/scripts.js"></script>
+
+</body>
+</html>

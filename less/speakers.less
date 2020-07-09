@@ -1,0 +1,57 @@
+
+.speakers {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.speakers__headline {
+  margin-bottom: 8px;
+
+  text-align: center;
+}
+.speakers__headline::before {
+  content: "Наши спикеры";
+}
+
+
+.speakers__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  max-width: 970px;
+  margin: auto;
+  padding: 0;
+}
+
+.speakers__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 220px;
+  margin-top: 24px;
+  padding: 0 10px;
+}
+
+.speakers__avatar {
+  width: 120px;
+  height: 120px;
+
+  background: url("../img/avatar.jpg") 0 0 no-repeat;
+}
+
+.speakers__name {
+  margin-top: 8px;
+  margin-bottom: 0;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.speakers__description {
+  margin-top: 8px;
+  margin-bottom: 0;
+
+  text-align: center;
+  font-style: italic;
+}
